@@ -1,5 +1,8 @@
-# ProyectoDDI-P
+# ProyectoDDI-P 
+'CHAQUETON'
 ## Objetivo del proyecto
+Brindar una chaqueta inteligente, la cual nos permita monitorizar al usuario que la esté portando para que esté enterado de ciertas acciones que ocurren a su alrededor.
+A su vez buscamos comodidad en el cliente para que no solo esta prende sea útil en lo técnico, si no también logre ser cómoda para el portador normalmente con este producto lograremos cambiar la manera en que algunos ciclistas hacen recorridos.
 
 ## Integrantes
 - Jessy Javier Araiza Cervantes
@@ -20,8 +23,9 @@
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
 |  1  |  Node Red  |     |   |
-|    |          |         |      |
-|    |          |         |      |
+|  2  |  MicroPyton |         |      |
+|  3  |  MySQL   |         |      |
+| 4  | Raspberry Pi OS |    |     |
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
@@ -35,7 +39,7 @@
 |  HU07  | Yo como ciclista quiero que el dispositivo me muestre la temperatura corporal que tengo. Para tener conocimiento de mi estado de salud y evitar el riesgo de deshidratación, insolación o un golpe de calor. |Podría Hacerce  |   4    |  El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente la temperatura corporal actual.  | Tona   |
 |  HU08  |                     |           |            |               |             |
 ## Prototipo en dibujo
-- Coloca la fotografia de tu prototipo dibujado a lapiz
+![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/7e276b2f-d920-4681-b061-3b69453b720d)
 
 ## Prototipo en Fitzing
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/c9466974-e3c4-44bc-824b-075609255ab0)
