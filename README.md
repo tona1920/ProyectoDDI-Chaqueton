@@ -31,10 +31,11 @@ La secretaria de Movilidad de la Ciudad de México, señaló que en el primer tr
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
-|  1  |  Node Red  |     |   |
-|  2  |  MicroPyton |         |      |
-|  3  |  MySQL   |         |      |
-| 4  | Raspberry Pi OS |    |     |
+|  1  |  Node Red  |  3.0.2   |  Dasboard  |
+|  2  |  MicroPyton |   3.11.3   |    Lenguaje de programacion  |
+|  3  |  MySQL   |      5.2.1     |   Almacenar datos (Base de datos)   |
+| 4  | Raspberry Pi OS |  11   |   Sistema operativvo de Raspberry  |
+|  5  | MQTT |  5.0 | Protocolo de comunicacion |
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
