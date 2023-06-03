@@ -17,7 +17,8 @@ A su vez buscamos comodidad en el cliente para que no solo esta prende sea útil
 | Num. | Componente | Descripción | Imagen | Costo | Cantidad | 
 |------|------------|-------------|--------|-------|----------|
 | 1 | Raspberry Pi 4 | Microcomputador reciente  |<img src='https://github.com/tona1920/ProyectoDDI-P/assets/88992807/7ec91669-392b-483c-943a-8270fcdaeb79' width="200px"/>| $2500.00 | 1 |
-|2|LVGL|Pantalla inteligente||200.00|1|
+|2|LVGL|Pantalla inteligente|<img src='https://github.com/tona1920/ProyectoDDI-P/assets/97042086/62956cd8-4f82-4beb-a9b5-c7e6aa76097e' width="200px"/>|200.00|1|
+
 
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
