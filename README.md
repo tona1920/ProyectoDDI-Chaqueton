@@ -35,7 +35,10 @@
 |  HU07  | Yo como ciclista quiero que el dispositivo me muestre la temperatura corporal que tengo. Para tener conocimiento de mi estado de salud y evitar el riesgo de deshidratación, insolación o un golpe de calor. |Podría Hacerce  |   4    |  El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente la temperatura corporal actual.  | Tona   |
 |  HU08  |                     |           |            |               |             |
 ## Prototipo en dibujo
+![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/c9466974-e3c4-44bc-824b-075609255ab0)
+
 - Coloca la fotografia de tu prototipo dibujado a lapiz
+## Prototipo en Fitzing
 
 ## Placa PCB
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bfb91e7a-367d-4f06-aa8c-03aebb169db6)
