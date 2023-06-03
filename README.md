@@ -20,6 +20,14 @@ La secretaria de Movilidad de la Ciudad de México, señaló que en el primer tr
 |------|------------|-------------|--------|-------|----------|
 | 1 | Raspberry Pi 4 | Microcomputador reciente  |<img src='https://github.com/tona1920/ProyectoDDI-P/assets/88992807/7ec91669-392b-483c-943a-8270fcdaeb79' width="200px"/>| $2500.00 | 1 |
 |2|LVGL|Pantalla inteligente|<img src='https://github.com/tona1920/ProyectoDDI-P/assets/97042086/62956cd8-4f82-4beb-a9b5-c7e6aa76097e' width="200px"/>|200.00|1|
+|3|GY-NEO6MV3|Sensor GPS|<img src='![GY-NEO6MV3](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/0053050a-98e4-4cb0-a671-4d14cfc2b9e2)'width="200px"/>|177.00|1|
+|4|Modulo DHT11| Sensor temperatura y humedad|<img src='![DHT11](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bf8e3d5d-9c6e-4dbe-a56b-0bd0ffae030e)'width="200px"/>|77.00|1|
+|5|Modulo HC-SR04| Sensor Proximidad |<img src='![HC-SR04](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/6f98139e-898d-402e-a6cf-43ef3d4571e6)'width="200px"/>|60.00|1|
+|6|Modulo Pulso Cardiaco| Sensor de pulso cardiaco |<img src='![Cardiaco](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/1259c34f-25b0-4e0a-aa47-abf83db7b710)' width="200px"/>|110.00|1|
+|7|Led| Led |<img src='![LED](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/3f7b4685-80e4-4b65-8504-1a14e64aaa51)
+' width="200px"/>|110.00|1|
+|8|Buzzer| Buzzer |<img src='![Buzzer](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/6997eafb-f849-4b54-9c4c-5bbc5f37a5fb)
+' width="200px"/>|110.00|1|
 
 
 ## Tabla de Software utilizado
