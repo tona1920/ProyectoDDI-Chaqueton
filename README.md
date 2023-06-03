@@ -38,7 +38,7 @@
 - Coloca la fotografia de tu prototipo dibujado a lapiz
 
 ## Placa PCB
-[image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bfb91e7a-367d-4f06-aa8c-03aebb169db6)
+![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bfb91e7a-367d-4f06-aa8c-03aebb169db6)
 
 ## Modelado 3D
 https://www.tinkercad.com/things/8LRIvwNC0sq-frantic-albar/edit?sharecode=_havVZ2Vmezt7P5Z318VvKj5t1hMpyFZkGJieAYW2w0
