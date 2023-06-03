@@ -1,5 +1,5 @@
-# ProyectoDDI-P 
-'CHAQUETON'
+# ProyectoDDI-CHAQUETON 
+Nombre del proyecto : 'CHAQUETON'
 ## Objetivo del proyecto
 EL chaquetón es un proyecto que ofrece brindarle una experiencia de seguridad al usuario que lo utilice, con distintos tipos de seguridad al transitar en caminos, carreteras entre otros.
 El chaquetón permite saber tu ritmo cardiaco en caso de que te sientas mal (mareado, cansado) podrás medir tu ritmo cardiaco para descartar o tener conocimientos si es tu corazón.
@@ -47,7 +47,7 @@ La secretaria de Movilidad de la Ciudad de México, señaló que en el primer tr
 |  HU05  |  Yo como ciclista me gustaria que de alguna manera las mismas luces, enciendan de color rojo en dado caso que un auto se acercace demaciado a mi.                  |  Podria Hacerse       |    6    |  Yo como ciclista quiero que otras luces enciendan de color rojo. Para en dado caso que un auto se acercace demaciado a mi.            |       Cristian      |
 |  HU06  |  Yo como ciclista requiero en caso de estar en una situación de peligro mandar mi ubicación a un contacto de emergencia. Para que mis familiares me puedan auxiliar más fácil en caso de necesitar ayuda.  | Podría Hacerse  |   8    |  El ciclista debe colocarse la prenda inteligente (chaquetón) para después presionar un botón que salga de la manga o algún acceso fácil, este deberá presionar un botón para mandar un mensaje con la ubicación del ciclista a algún contacto de emergencia.  |   Jorge   |
 |  HU07  | Yo como ciclista quiero que el dispositivo me muestre la temperatura corporal que tengo. Para tener conocimiento de mi estado de salud y evitar el riesgo de deshidratación, insolación o un golpe de calor. |Podría Hacerce  |   4    |  El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente la temperatura corporal actual.  | Tona   |
-|  HU08  | Yo como ciclista quiero que el dispositivo me muestre la hora real. Para poder planificar mis rutas a tomar, descansos y parada, sin que afecte mis tiempos estimados | Podría hacerse| 5 | El ciclista debe colocarse la prenda inteligente (chaquetón) para después presionar un botón, este deberá presionar un botón para mandar un mensaje con la hora en tiempo real |Jessy|
+|  HU08  | Yo como ciclista quiero que el dispositivo me muestre la hora real. Para poder planificar mis rutas a tomar, descansos y paradas, sin que afecte mis tiempos estimados | Podría hacerse| 5 | El ciclista debe colocarse la prenda inteligente (chaquetón) para después presionar un botón, este deberá presionar un botón para mandar un mensaje con la hora en tiempo real |Jessy|
 ## Prototipo en dibujo
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/7e276b2f-d920-4681-b061-3b69453b720d)
 
