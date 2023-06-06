@@ -1,7 +1,7 @@
 # ProyectoDDI-CHAQUETON 
 Nombre del proyecto : 'CHAQUETON'
 ## Objetivo del proyecto
-EL chaquetón es un proyecto que ofrece brindarle una experiencia de seguridad al usuario que lo utilice, con distintos tipos de seguridad al transitar en caminos, carreteras entre otros.
+Crear un dispocitivo con la finalida brindar una experiencia de seguridad al usuario que lo utilice, con distintos tipos de seguridad al transitar en caminos, carreteras entre otros.
 El chaquetón permite saber tu ritmo cardiaco en caso de que te sientas mal (mareado, cansado) podrás medir tu ritmo cardiaco para descartar o tener conocimientos si es tu corazón.
 El chaquetón permite avisar a los conductores de vehículos a donde vas a girar en caso de hacerlo por medio de leds color amarillo simulando las direccionales de los autos así mismo advierte cuando están demasiado cerca encendiendo leds en color rojo simulando las calaveras de los autos.
 La secretaria de Movilidad de la Ciudad de México, señaló que en el primer trimestre del 2022 hubo 582 ciclistas accidentados. El chaquetón busca la prevención y eliminación en medida de lo posible de estos accidentes.
