@@ -1,10 +1,18 @@
 # ProyectoDDI-CHAQUETON 
 Nombre del proyecto : 'CHAQUETON'
 ## Objetivo del proyecto
-Crear un dispocitivo con la finalida brindar una experiencia de seguridad al usuario que lo utilice, con distintos tipos de seguridad al transitar en caminos, carreteras entre otros.
-El chaquetón permite saber tu ritmo cardiaco en caso de que te sientas mal (mareado, cansado) podrás medir tu ritmo cardiaco para descartar o tener conocimientos si es tu corazón.
-El chaquetón permite avisar a los conductores de vehículos a donde vas a girar en caso de hacerlo por medio de leds color amarillo simulando las direccionales de los autos así mismo advierte cuando están demasiado cerca encendiendo leds en color rojo simulando las calaveras de los autos.
-La secretaria de Movilidad de la Ciudad de México, señaló que en el primer trimestre del 2022 hubo 582 ciclistas accidentados. El chaquetón busca la prevención y eliminación en medida de lo posible de estos accidentes.
+
+Desarrollar un dispositivo con el fin de brindar una experiencia de seguridad mejorada a los usuarios al transitar por diferentes tipos de vías, como caminos y carreteras.
+
+El objetivo principal del dispositivo, denominado "Chaquetón", es proporcionar seguridad y protección al usuario en situaciones de riesgo. Para lograrlo, el Chaquetón cuenta con características específicas:
+
+Monitoreo del ritmo cardíaco: El Chaquetón está equipado con sensores que permiten medir el ritmo cardíaco del usuario. Esto proporciona la capacidad de detectar posibles problemas de salud, como mareos o fatiga, y evaluar si están relacionados con el corazón. De esta manera, el dispositivo brinda información valiosa para descartar o reconocer posibles situaciones de emergencia.
+
+Señalización de giros: Mediante el uso de LEDs de color amarillo estratégicamente ubicados en el Chaquetón, el dispositivo permite que los conductores de vehículos cercanos identifiquen claramente las intenciones de giro del usuario. Esto ayuda a evitar confusiones y mejora la seguridad al compartir la vía con otros vehículos.
+
+Alerta de proximidad: El Chaquetón también está equipado con LEDs en color rojo, que se activan cuando los vehículos se acercan demasiado al usuario. Estas luces simulan las calaveras de los autos y advierten a los conductores que deben mantener una distancia segura. Esta característica ayuda a prevenir accidentes y promueve un mayor respeto por los ciclistas en la vía.
+
+El objetivo final del Chaquetón es contribuir a la prevención y reducción de accidentes de ciclistas en las vías. Según datos proporcionados por la Secretaría de Movilidad de la Ciudad de México, en el primer trimestre del 2022 hubo 582 ciclistas accidentados. El dispositivo busca brindar una solución innovadora que aumente la seguridad de los ciclistas, fomentando una convivencia vial más segura y reduciendo la cantidad de incidentes en la medida de lo posible.
 
 ## Integrantes
 - Jessy Javier Araiza Cervantes
