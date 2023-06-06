@@ -13,7 +13,7 @@ La secretaria de Movilidad de la Ciudad de México, señaló que en el primer tr
 - Gerardo Tonathiu Rojas Torres 
 
 ## Beneficiario
-- Papa del cristian (Ingeniero en traslado y entrega de correspondencia)
+Yunnuel Buclon Rojas (Ingeniero en traslado y entrega de correspondencia)
 
 ## Hardware
 | Num. | Componente | Descripción | Imagen | Costo | Cantidad | 
