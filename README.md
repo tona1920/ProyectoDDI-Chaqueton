@@ -14,7 +14,7 @@ La secretaria de Movilidad de la Ciudad de México, señaló que en el primer tr
 
 ## Beneficiario
 Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
-El sñr. Fernando sera el principal benediciario del producto puesto que en su trabajo normalmente esta recorriendo la ciudad en su bicicleta y bueno este producto le prodia se mucha utilidad puesto que le brindaria mas seguiridad a la hora que esta realizando su trabajo.
+- El sñr. Fernando sera el principal benediciario del producto puesto que en su trabajo normalmente esta recorriendo la ciudad en su bicicleta y bueno este producto le prodia se mucha utilidad puesto que le brindaria mas seguiridad a la hora que esta realizando su trabajo.
 
 ## Hardware
 | Num. | Componente | Descripción | Imagen | Costo | Cantidad | 
