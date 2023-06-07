@@ -22,7 +22,7 @@ El objetivo final del Chaquetón es contribuir a la prevención y reducción de 
 
 ## Beneficiario
 Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
-- El sñr. Fernando sera el principal benediciario del producto puesto que en su trabajo normalmente esta recorriendo la ciudad en su bicicleta y bueno este producto le prodia se mucha utilidad puesto que le brindaria mas seguiridad a la hora que esta realizando su trabajo.
+- El Sr. Fernando sera el principal beneficiario del producto puesto que en su trabajo normalmente esta recorriendo la ciudad en su bicicleta y bueno este producto le podría se mucha utilidad puesto que le brindaría más seguiridad a la hora que esta realizando su trabajo.
 
 ## Hardware
 | Num. | Componente | Descripción | Imagen | Costo | Cantidad | 
