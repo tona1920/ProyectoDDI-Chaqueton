@@ -40,11 +40,12 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 ## Tabla de Software utilizado
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
-|  1  |  Node Red  |  3.0.2   |  Dasboard  |
-|  2  |  MicroPyton |   3.11.3   |    Lenguaje de programacion  |
-|  3  |  MySQL   |      5.2.1     |   Almacenar datos (Base de datos)   |
-| 4  | Raspberry Pi OS |  11   |   Sistema operativvo de Raspberry  |
-|  5  | MQTT |  5.0 | Protocolo de comunicacion |
+|  1  |  Node Red  |  3.0.2   |  Node-RED es un proyecto de código abierto con licencia Apache 2.0. La licencia Apache 2.0 es una licencia de software libre y de código abierto que permite a los usuarios utilizar, modificar y distribuir el software bajo ciertas condiciones.  |
+|  2  |  MicroPyton |   3.11.3   |   MicroPython es un proyecto de código abierto con licencia MIT. La licencia MIT es una licencia de software libre y de código abierto que es ampliamente utilizada y reconocida en la comunidad de desarrollo de software.   |
+|  3  |  MySQL   |      5.2.1     |   MySQL es un sistema de gestión de bases de datos relacional de código abierto desarrollado por Oracle. MySQL está disponible bajo una combinación de licencias, dependiendo de la versión y el uso específico. La versión comunitaria de MySQL 8.0 se distribuye bajo la Licencia Pública General de GNU (GPL). La GPL es una licencia de software libre y de código abierto que permite a los usuarios utilizar, copiar, modificar y distribuir el software bajo los términos de la GPL.    |
+| 4  | Raspberry Pi OS |  11   |   Sin embargo, el sistema operativo oficial de Raspberry Pi, llamado Raspbian (ahora conocido como Raspberry Pi OS), está basado en Debian, que es un sistema operativo de código abierto distribuido bajo la Licencia Pública General de GNU (GPL). La GPL es una licencia de software libre y de código abierto que garantiza a los usuarios la libertad de usar, modificar y distribuir el software. |
+|  5  | MQTT |  5.0 |  
+MQTT (Message Queuing Telemetry Transport) es un protocolo de mensajería ligero diseñado para la comunicación entre dispositivos de Internet de las cosas (IoT). MQTT es un protocolo de código abierto y está gobernado por la organización OASIS (Organization for the Advancement of Structured Information Standards).|
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
