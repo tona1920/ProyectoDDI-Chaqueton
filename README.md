@@ -71,9 +71,16 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 ## Placa PCB
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bfb91e7a-367d-4f06-aa8c-03aebb169db6)
 
+
+
 ## Modelado 3D
 https://www.tinkercad.com/things/8LRIvwNC0sq-frantic-albar/edit?sharecode=_havVZ2Vmezt7P5Z318VvKj5t1hMpyFZkGJieAYW2w0
 
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/90641445/68293f99-57f4-436b-a7f4-b81e9e4188d6)
 
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/90641445/f5e1c3d5-d21b-4154-ae04-e0807d225320)
+
+## Sensores Apartados 
+Fecha 06/07/2023 a las 5:51
+!(![WhatsApp Image 2023-07-06 at 5 47 35 PM](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042023/dd5b409f-be92-4d38-8b78-7f2c920d0125)
+
