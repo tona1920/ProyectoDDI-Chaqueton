@@ -83,4 +83,7 @@ https://www.tinkercad.com/things/8LRIvwNC0sq-frantic-albar/edit?sharecode=_havVZ
 ## Sensores Apartados 
 Fecha 06/07/2023 a las 5:51
 !(![WhatsApp Image 2023-07-06 at 5 47 35 PM](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042023/dd5b409f-be92-4d38-8b78-7f2c920d0125)
+## Evidencias 
+https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
+
 
