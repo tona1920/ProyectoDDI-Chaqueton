@@ -94,4 +94,8 @@ Fecha 06/07/2023 a las 5:51
 ## Evidencias 
 https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 
+## Diagrama  de base de datos
+![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/90641445/66de5ea5-9dea-4345-ac4e-0932e34a5414)
+
+
 
