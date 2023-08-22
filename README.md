@@ -124,7 +124,7 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/90641445/66de5ea5-9dea-4345-ac4e-0932e34a5414)
 
 ## Video de agradecimiento 
-
+[Video de agradecimiento](https://drive.google.com/file/d/18zIwrSja-dIKaTfGCWO6xjvuIudHTGCH/view?usp=sharing)
 ## Video de demostracion
 
 ## Carta de liberacion
