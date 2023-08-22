@@ -130,6 +130,7 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ## Carta de liberacion
 
 ## Dashboard NODE-RED
+![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/771f320d-60ef-4700-8395-c55a1fb83640)
 
 ## Imagenes Dashboard lvgl
 
