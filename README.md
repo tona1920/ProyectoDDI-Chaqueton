@@ -87,7 +87,11 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/7e276b2f-d920-4681-b061-3b69453b720d)
 
 ## Prototipo en Fitzing
+
+# Primera version
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/c9466974-e3c4-44bc-824b-075609255ab0)
+
+# version Final
 
 ## Placa PCB
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bfb91e7a-367d-4f06-aa8c-03aebb169db6)
@@ -95,11 +99,19 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 
 
 ## Modelado 3D
+# Primera version
 https://www.tinkercad.com/things/8LRIvwNC0sq-frantic-albar/edit?sharecode=_havVZ2Vmezt7P5Z318VvKj5t1hMpyFZkGJieAYW2w0
 
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/90641445/68293f99-57f4-436b-a7f4-b81e9e4188d6)
 
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/90641445/f5e1c3d5-d21b-4154-ae04-e0807d225320)
+
+# version Final
+
+https://www.tinkercad.com/things/3MnqTAxb7D2-copy-of-didi-splash-goois/edit
+![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/90641445/fe72cf55-2d23-469d-b44c-0cbf91d219d1)
+![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/90641445/d867e784-63e1-4e16-bcc5-5d82c70d513d)
+
 
 ## Sensores Apartados 
 Fecha 06/07/2023 a las 5:51
@@ -115,5 +127,9 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ## Video de demostracion
 
 ## Carta de liberacion
+
+## Dashboard NODE-RED
+
+## Imagenes Dashboard lvgl
 
 
