@@ -43,6 +43,8 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 
 
 ## Tabla de Software utilizado
+
+
 | Id | Software | Version | Tipo |
 |----|----------|---------|------|
 |  1  |  Node Red  |  3.0.2   |  Node-RED es un proyecto de código abierto con licencia Apache 2.0. La licencia Apache 2.0 es una licencia de software libre y de código abierto que permite a los usuarios utilizar, modificar y distribuir el software bajo ciertas condiciones.  |
@@ -52,19 +54,30 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 |  5  | MQTT |  5.0 |  MQTT (Message Queuing Telemetry Transport) es un protocolo de mensajería ligero diseñado para la comunicación entre dispositivos de Internet de las cosas (IoT). MQTT es un protocolo de código abierto y está gobernado por la organización OASIS (Organization for the Advancement of Structured Information Standards). |
 
 
+
 ## Tabla de historias de usuario
+# Sprint 01
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |Numero de Sprint|Sensor que se utilizara|Imagen del Sensor|
 |----|---------------------|-----------|------------|---------------|-------------|----------------|-----------------------|-----------------|
 |  HU01  |  Yo como ciclista quiero que el dispositivo me proporcione la frecuencia cardiaca IPM. Para tener conocimiento de estas mientras estoy realizando mis actividades.   |  Debe Hacerse | 4 | El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón, en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente su IPM | Jessy |Sprint 01|Modulo Pulso Cardiaco|<img src='https://github.com/tona1920/ProyectoDDI-P/assets/97042086/1259c34f-25b0-4e0a-aa47-abf83db7b710' width="200px"/>|
 |  HU02  |  Yo como ciclista quiero que el dispositivo me proporcione mi ubicación en tiempo real. Para tener noción de donde me situó. | No se logró |  4  |  El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente sus coordenadas  | Cristian |Sprint 01|GY-NEO6MV3|<img src='https://github.com/tona1920/ProyectoDDI-P/assets/97042086/0053050a-98e4-4cb0-a671-4d14cfc2b9e2' width="200px"/>|
 |  HU03  | Yo como ciclista quiero que el dispositivo me proporcione el estado del aire. Para tener conocimiento sobre que vestimenta puedo usar y que rutas puedo tomar. | Debe Hacerse | 4 |  El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente la temperatura y humedad actual  |   Jorge     | Sprint 01|SENSOR DHT11|<img src="https://components101.com/sites/default/files/components/DHT11-Sensor.jpg" width="200px"/>|
 |  HU04  | Yo como ciclista quiero avisar a los autos que se encuentren atrás de mí. Para que mientras yo tránsito en mi bicicleta, se pueda ser apreciado a donde me dirijo con luces intermitentes, que cuyo acceso sea sencillo. | Debe Hacerse |   4    |  El ciclista debe colocarse la prenda inteligente (chaquetón) para después presionar un botón que salga de la manga o algún acceso fácil, este deberá dejarse presionado hasta que se desee dejar de dar la señal.    |  Tona    | Sprint 01|    ||
+
+# Sprint 02
+| Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |Numero de Sprint|Sensor que se utilizara|Imagen del Sensor|
+|----|---------------------|-----------|------------|---------------|-------------|----------------|-----------------------|-----------------|
 |  HU05  |  Yo como ciclista me gustaría que encienda algunas luces de color rojo en dado caso que un auto se acercase demasiado a mi.                  | Podría Hacerse       |    6    |  El ciclista debe colocarse la prenda inteligente, en dado caso que un auto se acerque demasiado, el Sensor Stemedu HC-SR505 (MicroPir), en conjunto del HC-SR04 (Ultrasónico) deberán accionar una serie de leds rojos para avisar los autos que su presencia está demasiado cerca  | Tonathiu | Sprint 02 | Sensor Stemedu HC-SR505 |<img src="https://m.media-amazon.com/images/I/41q-ZULJGKS._AC_UF894,1000_QL80_.jpg" width="200px"/>  |
 |  HU06  |  Yo como ciclista requiero en caso de estar en una situación de peligro mandar mi ubicación a un contacto de emergencia. Para que mis familiares me puedan auxiliar más fácil en caso de necesitar ayuda.  | No se logró |   8    | El ciclista debe colocarse la prenda inteligente (chaquetón) para después presionar un botón que salga de la manga o algún acceso fácil, este deberá presionar un botón para mandar un mensaje con la ubicación del ciclista a algún contacto de emergencia.  |   Cristian   | Sprint 02 | 
 |  HU07  | Yo como ciclista quiero que el dispositivo me muestre la temperatura corporal que tengo. Para tener conocimiento de mi estado de salud y evitar el riesgo de deshidratación, insolación o un golpe de calor. |Podría Hacerse |   4    | El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente la temperatura corporal actual.  | Tona   | Sprint 02 | NMP35 | <img src= 'https://uelectronics.com/wp-content/uploads/2017/08/AR0122-Sensor-de-Temperatura-LM35-v1.jpg' width="200px"/>  |
 |  HU08  | Yo como ciclista quiero que el dispositivo inteligente me muestre la hora real. Para poder planificar mis rutas a tomar, descansos y paradas, sin que afecte mis tiempos estimados | Podría hacerse| 5 | El ciclista debe colocarse la prenda inteligente (chaquetón) para después presionar un botón en la pantalla inteligente, esta deberá presionar un botón para mandar un mensaje con la hora en tiempo real |Jessy| Sprint 02 | 
 |  HU09  | Yo como ciclista quiero que se me notifique de alguna forma si hay gas a mi alrededor. |Podría Hacerse |   4    |  El ciclista debe colocarse la prenda inteligente (chaquetón) y dentro de Node-Red se verá los valores detectados por el sensor.| jorge   | Sprint 02 | NMP35 | <img src= 'https://sandorobotics.com/wp-content/uploads/2016/10/Gas-Sensor-MQ.jpg' width="200px"/>  |
 | HU10 |Yo como ciclista quiero que cuando este en una zona obscura, una luz se encienda  de manera automatica|Podría Hacerse  | 5 | El ciclista debe colocarse la prenda inteligente (chaquetón) en la que en un dado caso que se encuentre  en una  zona  sin  luz, un led integrado en la prenda debera encenderce | Cristian | Sprint 02 | Sensor de foto resistencia |<img src= 'https://sonrobots.com/wp-content/uploads/2021/01/LDRM2.jpg' width="200px"/>  |
+
+# No se debe Hacer
+
+| Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |Numero de Sprint|Sensor que se utilizara|Imagen del Sensor|
+|----|---------------------|-----------|------------|---------------|-------------|----------------|-----------------------|-----------------|
 |HU11|Yo como ciclista quiero que el dispositivo pueda subir las grabaciones a la nube. Para poder acceder a ellas en cualquier momento y no se pierdan | No Debe Hacerse | 6 |El ciclista debe colocarse la prenda inteligente (chaquetón) y tan pronto tenga acceso a internet se empezará a subir las grabaciones | Jessy|
 |HU12|Yo como ciclista quiero que el dispositivo por medio de la cámara pueda identificar rostros o matriculas de vehículos. Para tener conocimiento del vehículo o persona en caso de algún accidente |No Debe Hacerse| 8 | El ciclista debe colocarse la prenda inteligente (chaquetón) y presionar un botón en la pantalla inteligente, para que este le muestre por medio del display de la pantalla inteligente una lista con imagen y rostro o matricula identificada | Jorge|
 |HU13|Yo como ciclista quiero que el dispositivo por medio de notificaciones me avise en caso de haber alguna anomalía en el camino. Para tener conocimiento del estado de la ruta y cual utilizar. |No Debe Hacerse| 8 | El ciclista debe colocarse la prenda inteligente (chaquetón) y visualizar la  pantalla inteligente, para que este le muestre las actualizaciones del estado de las rutas y tome su decisión de cual ruta tomar  | Cristian|
@@ -97,5 +110,10 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ## Diagrama  de base de datos
 ![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/90641445/66de5ea5-9dea-4345-ac4e-0932e34a5414)
 
+## Video de agradecimiento 
+
+## Video de demostracion
+
+## Carta de liberacion
 
 
