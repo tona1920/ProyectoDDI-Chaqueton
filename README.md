@@ -128,6 +128,7 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ## Video de demostracion
 
 ## Carta de liberacion
+![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/88992807/1a5f74e3-360f-4a34-b7df-11d3c172bc98)
 
 ## Dashboard NODE-RED
 ![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/771f320d-60ef-4700-8395-c55a1fb83640)
