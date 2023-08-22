@@ -133,5 +133,7 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/771f320d-60ef-4700-8395-c55a1fb83640)
 
 ## Imagenes Dashboard lvgl
+![Imagen de WhatsApp 2023-08-22 a las 08 17 03](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/29ea9dc2-d750-402b-94ef-4f96c0a9f407)
+![Imagen de WhatsApp 2023-08-22 a las 08 17 03](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/9592bb63-f51a-4632-9b0b-15de0d4c017a)
 
 
