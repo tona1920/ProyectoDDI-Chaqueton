@@ -140,4 +140,7 @@ Se mostro la funcionalidad en el horario de clase.
 ![Imagen de WhatsApp 2023-08-22 a las 08 17 03](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/29ea9dc2-d750-402b-94ef-4f96c0a9f407)
 ![Imagen de WhatsApp 2023-08-22 a las 08 17 03](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/9592bb63-f51a-4632-9b0b-15de0d4c017a)
 
+## Flow Node-Red
+![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/97042086/1663fe9d-8bd1-490e-b7c0-2aa53276a88f)
+
 
