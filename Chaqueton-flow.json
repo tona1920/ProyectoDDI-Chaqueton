@@ -1,0 +1,620 @@
+[
+    {
+        "id": "587f1b2dd9e0484c",
+        "type": "tab",
+        "label": "CHAQUETON",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a50a823a01919f77",
+        "type": "mqtt in",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "topic": "sensor/intensidad_luz",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eda46caca5da29e6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "5b071f13674eb387"
+            ]
+        ]
+    },
+    {
+        "id": "5b071f13674eb387",
+        "type": "ui_gauge",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "group": "fe7cddb42c5284a2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Cantidad de luz<i class=\"fa fa-lightbulb-o\" aria-hidden=\"true\"></i>",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 600,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f910627756a64594",
+        "type": "ui_gauge",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "group": "fe7cddb42c5284a2",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Nivel del aire   <i class=\"wi wi-darksky-wind\"></i>",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "600",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 540,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "445d4c3845848e79",
+        "type": "mysql",
+        "z": "587f1b2dd9e0484c",
+        "mydb": "a7062c2430ceb563",
+        "name": "",
+        "x": 1020,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a5e73a4d1c30905",
+        "type": "function",
+        "z": "587f1b2dd9e0484c",
+        "name": "sensor de pulso cardiaco",
+        "func": "msg.topic = 'INSERT INTO datos (sensor, usuario, value) VALUES (1,1,'+msg.payload+');';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 760,
+        "wires": [
+            [
+                "445d4c3845848e79"
+            ]
+        ]
+    },
+    {
+        "id": "a02e4683e9213417",
+        "type": "function",
+        "z": "587f1b2dd9e0484c",
+        "name": "sensor de humendad",
+        "func": "msg.topic = 'INSERT INTO datos (sensor, usuario, value) VALUES (2,1,'+msg.payload+');';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 400,
+        "wires": [
+            [
+                "445d4c3845848e79"
+            ]
+        ]
+    },
+    {
+        "id": "d7f1203d2ec6cd22",
+        "type": "function",
+        "z": "587f1b2dd9e0484c",
+        "name": "sensor de temperatura",
+        "func": "msg.topic = 'INSERT INTO datos (sensor, usuario, value) VALUES (4,1,'+msg.payload+');';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 500,
+        "wires": [
+            [
+                "445d4c3845848e79"
+            ]
+        ]
+    },
+    {
+        "id": "ea45870640e231f3",
+        "type": "function",
+        "z": "587f1b2dd9e0484c",
+        "name": "sensor de Gas",
+        "func": "msg.topic = 'INSERT INTO datos (sensor, usuario, value) VALUES (5,1,'+msg.payload+');';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 600,
+        "wires": [
+            [
+                "445d4c3845848e79"
+            ]
+        ]
+    },
+    {
+        "id": "84abc91e80422c57",
+        "type": "function",
+        "z": "587f1b2dd9e0484c",
+        "name": "sensor de Ultrasonico",
+        "func": "msg.topic = 'INSERT INTO datos (sensor, usuario, value) VALUES (7,1,'+msg.payload+');';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 680,
+        "wires": [
+            [
+                "445d4c3845848e79"
+            ]
+        ]
+    },
+    {
+        "id": "4642f75195ad46d7",
+        "type": "mqtt in",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "topic": "sensor/gas",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eda46caca5da29e6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 560,
+        "wires": [
+            [
+                "f910627756a64594",
+                "ea45870640e231f3"
+            ]
+        ]
+    },
+    {
+        "id": "db2e59150fc653ed",
+        "type": "mqtt in",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "topic": "sensor/humedad",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eda46caca5da29e6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "895d8d1b7920455d",
+                "a02e4683e9213417"
+            ]
+        ]
+    },
+    {
+        "id": "f6def61f8bc77b5c",
+        "type": "mqtt in",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "topic": "sensor/temperatura",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eda46caca5da29e6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 440,
+        "wires": [
+            [
+                "6a20e4de78aea468",
+                "d7f1203d2ec6cd22"
+            ]
+        ]
+    },
+    {
+        "id": "9e39148c756c9082",
+        "type": "mqtt in",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "topic": "sensor/ultrasonico",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eda46caca5da29e6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 680,
+        "wires": [
+            [
+                "84abc91e80422c57"
+            ]
+        ]
+    },
+    {
+        "id": "6a20e4de78aea468",
+        "type": "ui_chart",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "group": "9c6ad97f0506611b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "grafica de temperatura <i class=\"fa fa-thermometer-full\" aria-hidden=\"true\"></i>",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "895d8d1b7920455d",
+        "type": "ui_chart",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "group": "9c6ad97f0506611b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "grafica de humedad <i class=\"wi wi-darksky-rain\"></i>",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "bezier",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#a30000",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 560,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9843fb51d5b3eda6",
+        "type": "ui_text",
+        "z": "587f1b2dd9e0484c",
+        "group": "9c6ad97f0506611b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Chqueton",
+        "format": "Monitoreo de grafias",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 240,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1ae2f8f123536e86",
+        "type": "ui_text",
+        "z": "587f1b2dd9e0484c",
+        "group": "fe7cddb42c5284a2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Chqueton",
+        "format": "monitorio de graficas en vivo",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 400,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "231d81b05c782b83",
+        "type": "inject",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "4433a845a428d0f6"
+            ]
+        ]
+    },
+    {
+        "id": "0f0597163ef731c8",
+        "type": "ui_text",
+        "z": "587f1b2dd9e0484c",
+        "group": "79dd8478cccd60d5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Fecha",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 650,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4433a845a428d0f6",
+        "type": "function",
+        "z": "587f1b2dd9e0484c",
+        "name": "Fecha",
+        "func": "var currentDateTime = new Date();\nvar day = currentDateTime.getDate();\nvar month = currentDateTime.getMonth() + 1; // Meses en JavaScript están indexados desde 0\nvar year = currentDateTime.getFullYear();\nvar hours = currentDateTime.getHours();\nvar minutes = currentDateTime.getMinutes();\nvar seconds = currentDateTime.getSeconds();\n\nvar formattedDateTime = `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;\n\nmsg.payload = formattedDateTime;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "0f0597163ef731c8"
+            ]
+        ]
+    },
+    {
+        "id": "50adbdfd003799e4",
+        "type": "ui_text",
+        "z": "587f1b2dd9e0484c",
+        "group": "79dd8478cccd60d5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nombre del sistema",
+        "format": "CHAQUETON",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 600,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7165d65ac31ab3fa",
+        "type": "mqtt in",
+        "z": "587f1b2dd9e0484c",
+        "name": "",
+        "topic": "sensor/cardio",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "eda46caca5da29e6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 760,
+        "wires": [
+            [
+                "0a5e73a4d1c30905"
+            ]
+        ]
+    },
+    {
+        "id": "c39f4321ae5f203d",
+        "type": "ui_spacer",
+        "z": "587f1b2dd9e0484c",
+        "name": "spacer",
+        "group": "b5e972311beed673",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9916d7fd6d412f93",
+        "type": "ui_spacer",
+        "z": "587f1b2dd9e0484c",
+        "name": "spacer",
+        "group": "fe7cddb42c5284a2",
+        "order": 2,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "eda46caca5da29e6",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.235.43",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "fe7cddb42c5284a2",
+        "type": "ui_group",
+        "name": "Chaqueton-Graficas",
+        "tab": "6f8db3cc0c265437",
+        "order": 3,
+        "disp": true,
+        "width": "9",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "a7062c2430ceb563",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "chaqueton_db",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "9c6ad97f0506611b",
+        "type": "ui_group",
+        "name": "Info",
+        "tab": "6f8db3cc0c265437",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "79dd8478cccd60d5",
+        "type": "ui_group",
+        "name": "Sistema",
+        "tab": "6f8db3cc0c265437",
+        "order": 3,
+        "disp": true,
+        "width": "8",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "6f8db3cc0c265437",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
