@@ -91,7 +91,7 @@ Fernando Ramirez Gonzalez (Ingeniero en traslado y entrega de correspondencia)
 # Primera version
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/c9466974-e3c4-44bc-824b-075609255ab0)
 
-# version Final
+# versión Final
 
 ## Placa PCB
 ![image](https://github.com/tona1920/ProyectoDDI-P/assets/97042086/bfb91e7a-367d-4f06-aa8c-03aebb169db6)
@@ -126,10 +126,11 @@ https://drive.google.com/drive/folders/1TWkipLS9zabZnI_jr6eakXxqB_kxotHJ
 ## Video de agradecimiento 
 [Video de agradecimiento](https://drive.google.com/file/d/18zIwrSja-dIKaTfGCWO6xjvuIudHTGCH/view?usp=sharing)
 
-## Video de demostracion
+## Video de demostración
+[Video de demostración](https://drive.google.com/file/d/194sKay_X39DQJqWtjNUEysm19sz_7LKU/view?usp=sharing)
 Se mostro la funcionalidad en el horario de clase.
 
-## Carta de liberacion
+## Carta de liberación
 ![image](https://github.com/tona1920/ProyectoDDI-Chaqueton/assets/88992807/1a5f74e3-360f-4a34-b7df-11d3c172bc98)
 
 ## Dashboard NODE-RED
